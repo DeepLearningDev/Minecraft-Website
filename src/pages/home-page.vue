@@ -5,9 +5,6 @@
       <!-- Navigation Bar -->
       <nav class="navbar">
         <!-- Logo (Link to Home) -->
-        <router-link to="/">
-         <!-- <img src="../assets/logo.png" alt="Logo" class="logo"> -->
-        </router-link>
 
         <!-- Navigation Links -->
         <ul class="nav-links">
