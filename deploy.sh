@@ -15,6 +15,6 @@ cd dist
 git init
 git add -A
 git commit -m 'New Deployment'
-git push -f git@github.com:deeplearningdev/minecraft-vue-website.git main:gh-pages
+git push -f git@github.com:deeplearningdev/minecraft-vue-website.git master:gh-pages
 
 cd -
