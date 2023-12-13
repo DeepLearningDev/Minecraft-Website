@@ -14,9 +14,9 @@
       <!-- Use a carousel or image slider component to display cycling images -->
       <!-- Example: -->
       <div class="slider">
-        <img src="path/to/image1.jpg" alt="Image 1">
-        <img src="path/to/image2.jpg" alt="Image 2">
-        <!-- Add more images -->
+        <img src="../assets/image1.jpg" alt="Image 1">
+        <img src="../assets/image2.jpg" alt="Image 2">
+        <img src="../assets/image3.jpg" alt="Image 3">
       </div>
     </section>
 
@@ -25,7 +25,7 @@
       <!-- Embedded video from YouTube or other platforms -->
       <!-- Example: -->
       <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/VRUl4zM37H4" frameborder="0" allowfullscreen></iframe>
         <!-- Replace VIDEO_ID with the ID of your YouTube video -->
       </div>
     </section>
