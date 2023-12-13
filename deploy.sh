@@ -14,12 +14,7 @@ cd dist
 
 git init
 git add -A
-git commit -m 'deploy'
-
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
+git commit -m 'New Deployment'
 git push -f git@github.com:deeplearningdev/minecraft-vue-website.git Test:gh-pages
 
 cd -
