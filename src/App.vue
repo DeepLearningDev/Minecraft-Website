@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import index from './components/home-page.vue'
+import index from './pages/home-page.vue'
 
 export default {
   name: 'App',

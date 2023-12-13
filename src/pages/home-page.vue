@@ -6,7 +6,7 @@
       <nav class="navbar">
         <!-- Logo (Link to Home) -->
         <router-link to="/">
-          <img src="~/assets/logo.png" alt="Logo" class="logo">
+          <img src="../assets/logo.png" alt="Logo" class="logo">
         </router-link>
 
         <!-- Navigation Links -->
@@ -25,9 +25,9 @@
       <!-- Use a carousel or image slider component to display cycling images -->
       <!-- Example: -->
       <div class="slider">
-        <img src="~/assets/image1.jpg" alt="Image 1">
-        <img src="~/assets/image2.jpg" alt="Image 2">
-        <img src="~/assets/image3.jpg" alt="Image 3">
+        <img src="../assets/image1.jpg" alt="Image 1">
+        <img src="../assets/image2.jpg" alt="Image 2">
+        <img src="../assets/image3.jpg" alt="Image 3">
       </div>
     </section>
 
