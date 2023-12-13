@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import App from './App.vue';
 import VueRouter from 'vue-router';
+import { createWebHistory } from 'vue-router';
 
 import HomePage from './pages/home-page.vue';
 import NewsPage from './pages/news-page.vue';
@@ -18,7 +19,8 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: 'hash', // Use 'history' mode or 'hash' mode for routing
+  mode: 'history',
+  history: createWebHistory(),
   routes
 });
 
