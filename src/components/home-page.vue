@@ -14,9 +14,9 @@
       <!-- Use a carousel or image slider component to display cycling images -->
       <!-- Example: -->
       <div class="slider">
-        <img src="path/to/image1.jpg" alt="Image 1">
-        <img src="path/to/image2.jpg" alt="Image 2">
-        <!-- Add more images -->
+        <img src="../assets/image1.jpg" alt="Image 1">
+        <img src="../assets/image2.jpg" alt="Image 2">
+        <img src="../assets/image3.jpg" alt="Image 3">
       </div>
     </section>
 
@@ -25,7 +25,7 @@
       <!-- Embedded video from YouTube or other platforms -->
       <!-- Example: -->
       <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/VRUl4zM37H4" frameborder="0" allowfullscreen></iframe>
         <!-- Replace VIDEO_ID with the ID of your YouTube video -->
       </div>
     </section>
@@ -61,33 +61,107 @@ export default {
 }
 </script>
 
+
 <style scoped>
 /* Add scoped styles for your index.vue component */
 /* Customize styling based on your design preferences */
-/* Example: */
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Main container */
 .home {
-  /* Your home page styles */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* Styles for different sections */
-.header {
-  /* Styles for title bar or header section */
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Title styles */
+h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #555;
+}
+
+/* Image slider styles */
 .image-slider {
-  /* Styles for the horizontal image slider */
+  margin-top: 20px;
+  overflow: hidden;
 }
 
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slider img {
+  flex: 0 0 auto;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+/* Video container styles */
 .video {
-  /* Styles for the embedded video section */
+  margin-top: 20px;
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio 16:9 for responsive videos */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Updates section styles */
 .updates {
-  /* Styles for news, patch notes, and updates section */
+  margin-top: 20px;
 }
 
+.updates h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.updates ul {
+  list-style: none;
+  padding: 0;
+}
+
+.updates li {
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
 footer {
-  /* Styles for the footer */
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  color: #777;
 }
 </style>
-
