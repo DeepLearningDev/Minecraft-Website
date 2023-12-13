@@ -2,10 +2,21 @@
   <div class="home">
     <!-- Title Bar Section -->
     <header>
-      <!-- Navigation or Title Bar -->
-      <!-- You can place your server's name, logo, or navigation links here -->
-      <h1>My Minecraft Server</h1>
-      <!-- Add navigation links if needed -->
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <!-- Logo (Link to Home) -->
+        <router-link to="/">
+          <img src="path/to/logo.png" alt="Logo" class="logo">
+        </router-link>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><router-link to="/news">News</router-link></li>
+          <li><router-link to="/wiki">Wiki</router-link></li>
+          <li><router-link to="/downloads">Downloads</router-link></li>
+          <!-- Add more links as needed -->
+        </ul>
+      </nav>
     </header>
 
     <!-- Horizontal Cycling Images Section -->
@@ -87,8 +98,39 @@ body {
 header {
   text-align: center;
   padding: 20px 0;
-  background-color: #fff;
+  background-color: #333; /* Dark gray background color */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff; /* White text color */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* Adjust the logo size as needed */
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.router-link-exact-active {
+  /* Add styles for active links if needed */
+  /* Example: font-weight: bold; */
 }
 
 /* Title styles */
@@ -159,9 +201,9 @@ h1 {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #fff;
+  background-color: #333; /* Dark gray background color */
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
-  color: #777;
+  color: #fff; /* White text color */
 }
 </style>
