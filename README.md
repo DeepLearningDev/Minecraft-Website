@@ -33,6 +33,24 @@ To set up this website locally, follow these steps:
 3. Modify the HTML, CSS, and JavaScript files to personalize the website.
 4. Add or replace images and videos in the respective directories (`/images`, `/videos`) to reflect your server.
 
+### Compiles and hot-reloads for development
+```
+npm serve
+```
+
+### Compiles and minifies for production
+```
+npm build
+```
+
+### Lints and fixes files
+```
+npm lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 ## Contributing
 
 We welcome contributions that enhance the website's features, design, and content. Feel free to fork this repository, make changes, and create pull requests.
@@ -43,12 +61,6 @@ If you encounter bugs or have suggestions for improvements, please create an iss
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgements
-
-We acknowledge and appreciate the following resources used in creating this website:
-- [Resource 1 Name](link)
-- [Resource 2 Name](link)
-- [Resource 3 Name](link)
 
 ## Contact
 
